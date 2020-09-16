@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos uma das mais renomadas barbearias do Brasil..."/>
+    <meta name="theme-color" content="#111111">
+    <link rel="canonical" href="https://palacybarbearia.com.br/">
+    <meta name="author" content="Patrick Pontes">
+    <title>Palacy Barbearia</title>
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="side-mobile-menu">
+        <div class="mobile-nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
+            <a href="#">Perfil</a>
+            <a href="#schedule" class="schedule-btn mobile-schedule">Agende seu Horário<span class="material-icons">schedule</span></a>
+        </div>
+    </section>
+    <header class="page-header">
+        <nav class="header-nav">
+            <div class="logo-container">
+                <img src="./images/logo-palacy.png" alt="Palacy Barbearia logo">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Serviços</a>
+                <a href="#">Contato</a>
+                <a href="#">Perfil</a>
+                <a href="#schedule" class="schedule-btn">Agende seu Horário<span class="material-icons">schedule</span></a>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <div class="bar-1 no-anim"></div>
+            <div class="bar-2 no-anim"></div>
+            <div class="bar-3 no-anim"></div>
+        </div>
+    </header>
+    <main class="landing-page">
+        <div class="bg-video-container">
+            <video src="./images/background-video.mp4" autoplay="true" muted="true" loop="true"></video>
+        </div>
+        <div class="landing-page-cta">
+            <h3>Seja Muito Bem-Vindo(a) à</h3>
+            <h2>Palacy Barbearia</h2>
+            <a href="#schedule" class="schedule-btn">Agende seu Horário<span class="material-icons">schedule</span></a>
+            <div class="scroll-icon-container">
+                <img src="./images/hair-clipper.svg" alt="hair-clipper icon" class="scroll-icon">
+            </div>
+        </div>
+    </main>
+    <section class="schedule-section" id="schedule">
+        <h2>Agende seu Horário</h2>
+        <div class="schedule-form">
+            <form action="#" method="GET" id="agendamento-form">
+                <div class="schedule-options-container">
+                    <label for="#unidade">Qual Unidade?</label>
+                    <select name="unidades" id="unidade" required>
+                        <option value="0" selected>Selecione uma Unidade</option>
+                    </select>
+                </div>
+                
+                <div class="schedule-options-container">
+                    <label for="#servico">Qual Serviço?</label>
+                    <select name="servicos" id="servico" required>
+                        <option value="0" selected>Selecione um Serviço</option>
+                    </select>
+                </div>
+
+                <div class="schedule-options-container">
+                    <label for="#data">Qual a Data e Hora?:</label>
+                    <input type="datetime-local" name="data" id="data" required>
+                </div>
+
+                <div class="schedule-options-container">
+                    <label for="#barbeiro">Qual Barbeiro?</label>
+                    <select name="barbeiros" id="barbeiro" required>
+                        <option value="0" selected>Selecione um Barbeiro</option>
+                    </select>
+                </div>
+
+                <div class="resumo-agendamento">
+                    <h2>Resumo do seu Agendamento</h2>
+                    <div class="agradecimento">
+                    </div>
+                </div>
+
+                <div class="schedule-options-container">
+                    <input type="submit" value="Agendar" name="submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>&copy; Palacy Barbearia</footer>
+    <script src="./app.js"></script>
+</body>
+</html>
