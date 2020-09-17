@@ -2,6 +2,8 @@
 This is a project made as a practical test.
 
 ## Demo
-You can see the running demo by clicking here.
+[Click here to see the demo](https://patrickpontes44.github.io/barbearia-landingpage/).
 
-# Screenshots
+## Screenshots
+![Image of screenshot](https://github.com/PatrickPontes44/barbearia-landingpage/blob/master/images/screenshot.PNG)
+![Image of mobile screenshot](https://github.com/PatrickPontes44/barbearia-landingpage/blob/master/images/mobile-screenshot.PNG)
