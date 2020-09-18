@@ -1,3 +1,6 @@
+## Do you want the Portuguese README?
+[Click here for the portuguese README](https://github.com/PatrickPontes44/barbearia-landingpage/blob/master/README-pt-br.md).
+
 ## About
 This is a project made as a practical test.
 
