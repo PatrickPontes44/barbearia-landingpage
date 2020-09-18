@@ -158,7 +158,7 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: showVideo .4s linear;
+    animation: showVideo 1s linear;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -290,6 +290,7 @@ img{
 }
 #submit:hover{
     opacity: .9;
+    cursor: pointer;
 
 }
 .schedule-form form .resumo-agendamento{
