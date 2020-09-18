@@ -284,6 +284,12 @@ img{
     background-color: var(--terciary-color);
     color: var(--primary-color);
     padding: 1rem 0;
+    opacity: 1;
+    transition: opacity .4s linear;
+
+}
+#submit:hover{
+    opacity: .9;
 
 }
 .schedule-form form .resumo-agendamento{
